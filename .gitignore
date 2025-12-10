@@ -1,0 +1,36 @@
+# --- Segurança ---
+.env
+.env.local
+*.key
+*.p12
+secrets.json
+
+# --- Java / Spring Boot ---
+target/
+*.class
+.mvn/
+mvnw
+mvnw.cmd
+.classpath
+.project
+.settings/
+.springBeans
+
+# --- Python / Data Science ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.pytest_cache/
+*.joblib
+*.pkl
+
+# --- IDEs ---
+.idea/
+.vscode/
+*.swp
+*.iml
+
+# --- OS ---
+.DS_Store
+Thumbs.db
