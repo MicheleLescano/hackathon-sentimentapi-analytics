@@ -27,9 +27,34 @@
 API para classificação automática de sentimentos (Positivo/Negativo/Neutro) em feedbacks de clientes, utilizando um modelo de Machine Learning integrado a um backend Java Spring Boot.
 
 #### ⚙️ **Tecnologias Utilizadas**
+Seguindo a arquitetura de microsserviços, adotaremos a seguinte stack:
+
 * **Backend:** 
-* **Data Science:** 
-* **Build/Deploy:** 
+* Java 17 + Spring Boot 3 - API /sentiment
+* Spring Web (REST) - Endpoints
+* OpenFeign - Cliente HTTP → Python
+* H2 Database - Banco em memória
+* Swagger/OpenAPI - Documentação
+
+**Data Science:** 
+* Python + Pandas + Scikit-learn - Treinar modelo
+* Joblib - Persistir modelo
+* FastAPI - Servidor leve para predição
+* Streamlit (opcional) - Visualização
+
+* **Infra/Dev:**
+* Git / GitHub (Monorepo)\
+* Docker (futuro)
+
+* **Build/Deploy:**
+* Oracle Cloud (futuro)
+
+
+
+ 
+
+
+
 
 #### 📁 **Estrutura do Projeto**
 * `/backend` - Código fonte da API Java
