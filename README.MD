@@ -29,7 +29,7 @@ API para classificação automática de sentimentos (Positivo/Negativo/Neutro) e
 #### ⚙️ **Tecnologias Utilizadas**
 Seguindo a arquitetura de microsserviços, adotaremos a seguinte stack:
 
-* **Backend:** 
+**Backend:** 
 * Java 17 + Spring Boot 3 - API /sentiment
 * Spring Web (REST) - Endpoints
 * OpenFeign - Cliente HTTP → Python
@@ -42,11 +42,11 @@ Seguindo a arquitetura de microsserviços, adotaremos a seguinte stack:
 * FastAPI - Servidor leve para predição
 * Streamlit (opcional) - Visualização
 
-* **Infra/Dev:**
+**Infra/Dev:**
 * Git / GitHub (Monorepo)\
 * Docker (futuro)
 
-* **Build/Deploy:**
+**Build/Deploy:**
 * Oracle Cloud (futuro)
 
 
