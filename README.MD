@@ -39,7 +39,13 @@ API para classificação automática de sentimentos (Positivo/Negativo/Neutro) e
 ---
 
 ### 👥 **Equipe do Projeto**
-* **Backend:** 
-* **Data Science:** 
+### **Backend Team**
+[![Dev Backend](https://img.shields.io/badge/Backend_Dev-Amaro_Netto-red?style=for-the-badge&logo=openjdk&logoColor=white)](https://github.com/amaro-netto)
+[![Dev Backend](https://img.shields.io/badge/Backend_Dev-Michele_Lescano-red?style=for-the-badge&logo=openjdk&logoColor=white)](https://github.com/MicheleLescano)
+[![Dev Backend](https://img.shields.io/badge/Backend_Dev-Rodrigo_Franco-red?style=for-the-badge&logo=openjdk&logoColor=white)](https://github.com/Rshinna)
+
+### **Data Team**
+[![Data Scientist](https://img.shields.io/badge/Data_Scientist-Bruno_Ricardo-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/brunorm86)
+[![Data Scientist](https://img.shields.io/badge/Data_Scientist-Alessandro_Apolinário-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
 
 ---
