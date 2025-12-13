@@ -61,6 +61,22 @@ Seguindo a arquitetura de microsserviços, adotaremos a seguinte stack:
 * `/data-science` - Notebooks e scripts de treinamento do modelo
 * `/docs` - Documentação complementar
 
+#### Visão Geral do Repositório
+hackathon-sentimentapi-analytics
+│
+├── backend/                # Spring Boot (Java)
+│   ├── src/...
+│   └── pom.xml
+│
+├── data/                   # Python
+│   ├── notebooks/          # Jupyter
+│   ├── model/              # Modelo .joblib
+│   ├── app.py              # FastAPI
+│   └── requirements.txt
+│
+├── doc/                    # Documentação
+└── README.md
+
 ---
 
 ### 👥 **Equipe do Projeto**
