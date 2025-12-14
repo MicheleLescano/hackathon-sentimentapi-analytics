@@ -6,9 +6,9 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-@FeignClient(name = "python-api", url = "http://localhost:8000 ") //http://localhost:8000->Padrão do Python/FastAPI
+@FeignClient(name = "python-api", url = "${app.ds-url}") 
 public interface PythonClient {
     
-    @PostMapping("/predict ") // Endpoint que o grupo de Data Science criar (ex: /predict)
+    @PostMapping("/predict") // Endpoint que o grupo de Data Science criar (ex: /predict)
     SentimentResponse analisar(@RequestBody SentimentRequest request);
 }
